@@ -1,0 +1,17 @@
+.winner {
+  font-family: var(--nunito);
+  color: #0f172a;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.board_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
