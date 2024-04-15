@@ -1,0 +1,102 @@
+.pokeapiselection {
+    min-width: 213px;
+    min-height: 328px;
+    border-radius: var(--rounded-2xl);
+    padding: var(--spacing-2);
+    display: flex;
+    gap: var(--spacing-4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 1);
+}
+
+.pokeapiselection__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeapiselection__name {
+    font-family: Nunito;
+    font-size: var(--font-2xl);
+    font-weight: 700;
+    line-height: var(--leading-8);
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pokeapiselection__id {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pokeapiselection__types {
+    margin-inline: auto;
+    display: flex;
+    gap: var(--spacing-2);
+}
+
+.pokeapiselection__type {
+    padding: var(--spacing-0_5) var(--spacing-2);
+    border-radius: 10px;
+    color: var(--white);
+    font-family: var(--nunito);
+    font-size: var(--font-sm);
+    font-weight: 700;
+    line-height: var(--leading-4);
+    letter-spacing: 0em;
+}
+
+.pokeapiselection__stats {
+    min-width: 177px;
+    min-height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokeapiselection__weight,
+.pokeapiselection__height {
+    min-width: 64px;
+    min-height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeapiselection__weight__content,
+.pokeapiselection__height__content {
+    min-width: 58px;
+    min-height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-2);
+}
+
+.pokeapiselection__weight_data,
+.pokeapiselection__height_data {
+    font-family: Nunito;
+    font-size: var(--font-sm);
+    font-weight: 400;
+    line-height: var(--leading-4);
+    letter-spacing: 0em;
+    text-align: justified;
+}
+
+.pokeapiselection__weight__title,
+.pokeapiselection__height__title {
+    font-family: Nunito;
+    font-size: var(--font-sm);
+    font-weight: 400;
+    line-height: var(--leading-4);
+    letter-spacing: 0em;
+    text-align: center;
+    color: hsla(215, 16%, 47%, 1);
+}

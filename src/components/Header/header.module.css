@@ -1,0 +1,39 @@
+.container {
+  background: #eff4ff;
+  padding-inline: 70px;
+  height: 64px;
+}
+.info_content {
+  display: flex;
+  height: 64px;
+  padding-inline: 16px;
+  justify-content: space-between;
+  padding-top: 17px;
+}
+.title {
+  font-family: Nunito;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.title:hover{
+  cursor: pointer;
+}
+
+.buttons {
+  border-radius: 20px;
+}
+.button_language {
+  border: none;
+  margin-right: 9px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.button_language:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+}
+.isActive{
+  border-radius: 20px;
+  border: 2px solid var(--foreground)
+}
