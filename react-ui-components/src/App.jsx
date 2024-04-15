@@ -1,3 +1,4 @@
+import TicTacToe from "./pages/TicTacToe";
 import Cards from "./components/Main-page/Cards";
 import { useState } from "react";
 import I18nProvider from "./context/I18nContext";
@@ -20,6 +21,7 @@ export default function App() {
       <I18nProvider>
         <Header showCards={showCards} />
         {showApp === "" && <Cards handleShow={handleShow} />}
+        {showApp === "ReactDev Tic-Tac-Toe" && <TicTacToe />}
       </I18nProvider>
     </div>
   );
