@@ -1,5 +1,12 @@
+/* eslint-disable react/prop-types */
 import styles from "./square.module.css";
 
-export const Square = () => {
-  return <div>Square</div>;
+const Square = ({ value, onSquareClick, id }) => {
+  return (
+    <button id={id} onClick={onSquareClick} className={styles.square}>
+      {value}
+    </button>
+  );
 };
+
+export default Square;

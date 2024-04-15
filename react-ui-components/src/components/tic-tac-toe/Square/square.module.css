@@ -1,0 +1,15 @@
+.square {
+  width: 41px;
+  height: 48px;
+  font-family: var(--rubik);
+  color: #0f172a;
+  font-weight: 400;
+  font-size: 48px;
+
+  width: 90px;
+  height: 90px;
+  left: 180px;
+  top: 236px;
+  border: 1px solid #cbd5e1;
+  background: unset;
+}
